@@ -39,26 +39,33 @@ Castling
   
     example: move e4 e5 
 
-  Capital letters represent white pieces, otherwise black pieces
-  
-  **k/K** - king
-  **q/Q** - queen
-  **r/R** - rook 
-  **b/B** - bishop
-  **n/N** - knight
-  **p/P** - pawn
+    Capital letters represent white pieces, otherwise black pieces
 
-  to move, it must be your turn 
-  You can only move to valid squares
+    **k/K** - king
+    **q/Q** - queen
+    **r/R** - rook 
+    **b/B** - bishop
+    **n/N** - knight
+    **p/P** - pawn
 
-castling is specified by two-square move for the king
+    to move, it must be your turn 
+    You can only move to valid squares
 
-black: move e1 g1
-white: move e1 c1
-Pawn promotion additionally specify the piece type to which the pawn is promoted: move e7 e8 Q.
+    castling is specified by two-square move for the king
 
-setup enters setup mode that can set up initial board configurations(can only be done when game is not running)
+      black: move e1 g1
+      white: move e1 c1
+      
+    Pawn promotion: specify the piece type to which the pawn is promoted: 
+    
+        ie: move f7 f8 Q 
 
+  **setup**
+
+    enters setup mode that for setting up initial board configurations before you start
+    
+    **+**
+    
 + piece position places the piece on the position (ex. + K e1), replaces if a piece already exists
 - position removes the piece from the position(ex. - e1), takes no action if there is nothing
 = colour makes it colour’s turn to go next(ex. = white)

@@ -47,9 +47,16 @@ Our team created this game for CS246 — Assignment-5 "Group Project" (Fall 2022
 
   Starts a new game. 
     
-  white-player & black-player parameters can be either: 
+  [white-player] & [black-player] parameters can be either: 
     1. human
     2. computer[1-4] (1 being easy-mode, 4 being master mode)  
+    
+   Examples: 
+   
+    Game human computer[1]
+    Game human human
+    Game computer[2] human
+    Game computer[1] computer[4]
 
 `resign`
   

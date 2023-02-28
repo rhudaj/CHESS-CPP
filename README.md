@@ -1,6 +1,6 @@
 # CHESS-CPP
 
-Summary
+# Summary
 CS 246 - Object-Oriented Software Development Chess Game
 
 Team Members : Edward Jiwook Kim, Nipun Lamba, and Prabhapaar Singh Batra

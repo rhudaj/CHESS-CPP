@@ -24,17 +24,14 @@ Castling
 
   Letters (Capital letters represent white pieces, lowercase represent black pieces) are used to represent pieces as follows: 
 
-  k/K - king
-  
-  q/Q - queen
-  
-  r/R - rook 
-  
-  b/B - bishop
-  
-  n/N- knight
-  
-  p/P - pawn
+  Symbols | Piece
+  --------| --------
+  k/K     | king
+  q/Q     | queen
+  r/R     | rook 
+  b/B     | bishop
+  n/N     | knight
+  p/P     | pawn
   
 ## How Positions are represented in instructions: 
 

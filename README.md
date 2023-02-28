@@ -3,24 +3,26 @@
 # Summary
 CS 246 - Object-Oriented Software Development Chess Game
 
-Team Members : Edward Jiwook Kim, Nipun Lamba, and Prabhapaar Singh Batra
+Our team created this game for CS246 — Assignment-5 "Group Project" (Fall 2022)
 
-Our team developed this chess game for CS246 — Assignment 5, Group Project (Winter 2019)
+The game has the following functions: 
 
-The chess game provides all functionalities from the assignment specification:
+4 levels of difficulty for the computer AI: easy, medium, hard, master
+Graphical interface using X11-libraries 
+Setup Mode: create a custom board setup and launch the game from that state 
+Play Modes: 
+  Player vs Player
+  Player vs Computer
+  Computer vs Computer
+Command Line for controls/Instruction
 
-4 levels of difficulty for the computer AI
-Graphical interface using X11
-Setup Mode
-Move History
-Play Modes of
-Player vs Player
-Player vs Computer
-Computer vs Computer
-Command Interpreter Instructions
-game white-player black-player starts a new game.
+# To Start a new Game
 
-white-player & white-player parameters can be either human or computer[1-4]
+Game [white-player] [black-player] starts a new game
+
+W
+
+white-player & black-player parameters can be either: human or computer[1-4]
 resign concedes the game to your opponent
 
 capital letters represent white pieces, otherwise black pieces

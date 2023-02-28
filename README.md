@@ -18,7 +18,9 @@ Stalemate
 Checkmate
 Castling 
 
-# If you playing on the console display
+# Instructions
+
+## How Pieces are represented in instructions: 
 
   Letters (Capital letters represent white pieces, lowercase represent black pieces) are used to represent pieces as follows: 
 
@@ -33,6 +35,14 @@ Castling
   n/N- knight
   
   p/P - pawn
+  
+## How Positions are represented in instructions: 
+
+  the board is a grid. Positions follow what is shown in the image below: 
+  
+  ![alt text](https://www.houseofstaunton.com/media/wysiwyg/ChessBasics/HOS/blank-board.jpg)
+  
+  
 
 # Command Guide (How to Play)
 

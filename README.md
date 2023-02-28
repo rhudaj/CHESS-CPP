@@ -5,7 +5,7 @@ CS 246 - Object-Oriented Software Development Chess Game
 
 Our team created this game for CS246 — Assignment-5 "Group Project" (Fall 2022)
 
-The game has the following functions: 
+## Highlighted features:
 
 4 levels of difficulty for the computer AI: easy, medium, hard, master
 Graphical interface using X11-libraries 
@@ -14,22 +14,42 @@ Play Modes:
   Player vs Player
   Player vs Computer
   Computer vs Computer
-Command Line for controls/Instruction
+Stalemate
+Checkmate
+Castling 
 
-# To Start a new Game
+# Command Guide (How to Play)
 
-Game [white-player] [black-player] starts a new game
 
-W
+  **Game [white-player] [black-player]**
 
-white-player & black-player parameters can be either: human or computer[1-4]
-resign concedes the game to your opponent
+    Starts a new game. 
+    
+    white-player & black-player parameters can be either: 
+    1. human
+    2. computer[1-4] (1 being easy-mode, 4 being master mode)  
 
-capital letters represent white pieces, otherwise black pieces
+  **resign**
+  
+    concedes the game to your opponent
+    
+## Moving Pieces 
+ 
+  **move [square 1] [square 2]**
+  
+    example: move e4 e5 
 
-Letter	K	Q	R	B	N	P
-Piece	King	Queen	Rook	Bishop	Knight	Pawn
-To move: move src dst (ex. move e2 e4)
+  Capital letters represent white pieces, otherwise black pieces
+  
+  **k/K** - king
+  **q/Q** - queen
+  **r/R** - rook 
+  **b/B** - bishop
+  **n/N** - knight
+  **p/P** - pawn
+
+  to move, it must be your turn 
+  You can only move to valid squares
 
 castling is specified by two-square move for the king
 

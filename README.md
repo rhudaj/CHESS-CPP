@@ -7,16 +7,16 @@ Our team created this game for CS246 — Assignment-5 "Group Project" (Fall 2022
 
 ## Highlighted features:
 
-4 levels of difficulty for the computer AI: easy, medium, hard, master
-Graphical interface using X11-libraries 
-Setup Mode: create a custom board setup and launch the game from that state 
-Play Modes: 
-  Player vs Player
-  Player vs Computer
-  Computer vs Computer
-Stalemate
-Checkmate
-Castling 
+* 4 levels of difficulty for the computer AI: easy, medium, hard, master
+* Graphical interface using X11-libraries 
+* Setup Mode: create a custom board setup and launch the game from that state 
+* Play Modes: 
+  * Player vs Player
+  * Player vs Computer
+  * Computer vs Computer
+* Stalemate
+* Checkmate
+* Castling 
 
 # Instructions
 

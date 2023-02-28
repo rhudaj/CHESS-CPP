@@ -64,20 +64,13 @@ Castling
 
     enters setup mode that for setting up initial board configurations before you start
     
-    **+**
-    
-+ piece position places the piece on the position (ex. + K e1), replaces if a piece already exists
-- position removes the piece from the position(ex. - e1), takes no action if there is nothing
-= colour makes it colour’s turn to go next(ex. = white)
-done leaves setup mode
-history for viewing your past moves
-
-For more detailed instructions: Instructions
-
-Design & Planning
-We used Observer pattern as a design recipe for the game.
-
-For how our team tackled the project: Plan
+    +   
+      piece position places the piece on the position (ex. + K e1), replaces if a piece already exists
+    - 
+      position removes the piece from the position(ex. - e1), takes no action if there is nothing
+    = 
+      colour makes it colour’s turn to go next(ex. = white)
+    done 
+      leaves setup mode
 
 
-UML In pdf: UML

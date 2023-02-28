@@ -1,6 +1,6 @@
 # CHESS-CPP
 
-# Summary
+## Summary
 CS 246 - Object-Oriented Software Development Chess Game
 
 Our team created this game for CS246 — Assignment-5 "Group Project" (Fall 2022)
@@ -17,6 +17,12 @@ Our team created this game for CS246 — Assignment-5 "Group Project" (Fall 2022
 * Stalemate
 * Checkmate
 * Castling 
+
+# Design
+
+CHESS-CPP/DOCUMENTATION/uml.pdf
+
+![alt text](https://github.com/Romanhudaj11/CHESS-CPP/blob/DOCUMENTATION/uml.pdf?raw=true)
 
 # Instructions
 

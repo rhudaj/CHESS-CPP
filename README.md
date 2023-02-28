@@ -20,9 +20,7 @@ Our team created this game for CS246 — Assignment-5 "Group Project" (Fall 2022
 
 # Design
 
-CHESS-CPP/DOCUMENTATION/uml.pdf
-
-![alt text](https://github.com/Romanhudaj11/CHESS-CPP/DOCUMENTATION/uml.pdf?raw=true)
+![uml.pdf] (CHESS-CPP/DOCUMENTATION/uml.pdf)
 
 # Instructions
 

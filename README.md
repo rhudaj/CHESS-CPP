@@ -18,6 +18,22 @@ Stalemate
 Checkmate
 Castling 
 
+# If you playing on the console display
+
+  Letters (Capital letters represent white pieces, lowercase represent black pieces) are used to represent pieces as follows: 
+
+  k/K - king
+  
+  q/Q - queen
+  
+  r/R - rook 
+  
+  b/B - bishop
+  
+  n/N- knight
+  
+  p/P - pawn
+
 # Command Guide (How to Play)
 
 **Game [white-player] [black-player]**
@@ -39,15 +55,6 @@ Castling
   example: 
 
     move e4 e5 
-
-  Capital letters represent white pieces, otherwise black pieces
-
-  k/K - king
-  q/Q - queen
-  r/R - rook 
-  b/B - bishop
-  n/N- knight
-  p/P - pawn
 
   to move, it must be your turn 
   You can only move to valid squares

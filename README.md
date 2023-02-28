@@ -45,7 +45,7 @@ Our team created this game for CS246 — Assignment-5 "Group Project" (Fall 2022
 
 `Game [white-player] [black-player]`
 
-  Starts a new game. 
+   Starts a new game. 
     
   [white-player] & [black-player] parameters can be either: 
     1. human

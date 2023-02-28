@@ -36,7 +36,7 @@ Castling
 
 # Command Guide (How to Play)
 
-'Game [white-player] [black-player]'
+`Game [white-player] [black-player]`
 
   Starts a new game. 
     
@@ -44,13 +44,13 @@ Castling
     1. human
     2. computer[1-4] (1 being easy-mode, 4 being master mode)  
 
-**resign**
+`resign`
   
   concedes the game to your opponent
     
 ## Moving Pieces 
  
-  **move [square 1] [square 2]**
+  `move [square 1] [square 2]`
   
   example: 
 
@@ -73,23 +73,40 @@ Castling
       move f7 f8 Q 
 
 ## Setup Mode
-**setup**
+
+`setup`
 
   enters setup mode that for setting up initial board configurations before you start
   
-**+**
+`+ [piece] [position]`
 
-  piece position places the piece on the position (ex. + K e1), replaces if a piece already exists
+  piece position places the piece on the position.
+  replaces if a piece already exists
+  
+  Example: 
+  
+    + K e1
+    + q f2
 
-**-**
+`- [position]`
 
-  position removes the piece from the position(ex. - e1), takes no action if there is nothing
+  position removes the piece from the position
+  takes no action if there is nothing
+  
+  Example: 
+  
+    - e1
+    - f2
 
-**=**
+`= [white/black]`
 
-  colour makes it colour’s turn to go next(ex. = white)
+  colour makes it colour’s turn to go next
+  
+  Example: 
+  
+    = white
 
-**done**
+`done`
 
   leaves setup mode
 

@@ -41,12 +41,12 @@ Castling
 
     Capital letters represent white pieces, otherwise black pieces
 
-    **k/K** - king
-    **q/Q** - queen
-    **r/R** - rook 
-    **b/B** - bishop
-    **n/N** - knight
-    **p/P** - pawn
+    k/K - king
+    q/Q - queen
+    r/R - rook 
+    b/B - bishop
+    n/N- knight
+    p/P - pawn
 
     to move, it must be your turn 
     You can only move to valid squares

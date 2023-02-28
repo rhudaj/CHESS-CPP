@@ -60,6 +60,7 @@ Castling
     
         ie: move f7 f8 Q 
 
+## Setup Mode
   **setup**
 
     enters setup mode that for setting up initial board configurations before you start

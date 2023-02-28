@@ -20,45 +20,50 @@ Castling
 
 # Command Guide (How to Play)
 
+**Game [white-player] [black-player]**
 
-  **Game [white-player] [black-player]**
-
-    Starts a new game. 
+  Starts a new game. 
     
-    white-player & black-player parameters can be either: 
+  white-player & black-player parameters can be either: 
     1. human
     2. computer[1-4] (1 being easy-mode, 4 being master mode)  
 
-  **resign**
+**resign**
   
-    concedes the game to your opponent
+  concedes the game to your opponent
     
 ## Moving Pieces 
  
   **move [square 1] [square 2]**
   
-    example: move e4 e5 
+  example: 
 
-    Capital letters represent white pieces, otherwise black pieces
+    move e4 e5 
 
-    k/K - king
-    q/Q - queen
-    r/R - rook 
-    b/B - bishop
-    n/N- knight
-    p/P - pawn
+  Capital letters represent white pieces, otherwise black pieces
 
-    to move, it must be your turn 
-    You can only move to valid squares
+  k/K - king
+  q/Q - queen
+  r/R - rook 
+  b/B - bishop
+  n/N- knight
+  p/P - pawn
 
-    castling is specified by two-square move for the king
+  to move, it must be your turn 
+  You can only move to valid squares
+
+  castling is specified by two-square move for the king
+  
+  Example:
 
       black: move e1 g1
       white: move e1 c1
       
-    Pawn promotion: specify the piece type to which the pawn is promoted: 
-    
-        ie: move f7 f8 Q 
+  Pawn promotion: specify the piece type to which the pawn is promoted: 
+  
+  Example:
+
+      move f7 f8 Q 
 
 ## Setup Mode
 **setup**

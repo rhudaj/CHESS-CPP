@@ -36,7 +36,7 @@ Castling
 
 # Command Guide (How to Play)
 
-**Game [white-player] [black-player]**
+'Game [white-player] [black-player]'
 
   Starts a new game. 
     

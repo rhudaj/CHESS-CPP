@@ -62,16 +62,14 @@ Castling
 
 ## Setup Mode
   **setup**
-
     enters setup mode that for setting up initial board configurations before you start
-    
-    +   
+  **+**
       piece position places the piece on the position (ex. + K e1), replaces if a piece already exists
-    - 
+  **-**
       position removes the piece from the position(ex. - e1), takes no action if there is nothing
-    = 
+  **=**
       colour makes it colour’s turn to go next(ex. = white)
-    done 
+  **done**
       leaves setup mode
 
 

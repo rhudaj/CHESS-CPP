@@ -1,10 +1,5 @@
 # CHESS-CPP
 
-## Summary
-CS 246 - Object-Oriented Software Development Chess Game
-
-Our team created this game for CS246 — Assignment-5 "Group Project" (Fall 2022)
-
 ## Highlighted features:
 
 * AI computer opponent with 4 levels of difficulty: easy, medium, hard, master
